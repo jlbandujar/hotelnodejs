@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hotel Bosco</h1>
+    <h2>Reservas</h2>
+    <form action="/reserva">
+    Tipo de habitación: <select name="tipo" >
+        <option value="ind">Individual</option>
+        <option value="dob">Doble</option>
+        <option value="trip">Triple</option>
+    </select><p></p>
+    Número de Habitaciones: <input type="number" min="1" value="1" max="10" name="numero">
+    <p>Vistas a la playa: <input type="checkbox" name="vistas"></p>
+    <input type="submit"><p></p>
+    </form>
+</body>
+</html>
